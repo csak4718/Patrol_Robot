@@ -1,0 +1,165 @@
+﻿Build started 2012/8/29 上午 09:59:32.
+     1>Project "C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Interface_v13.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Interface.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         Deleting file "Debug\Interface.pch".
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Interface.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\Interface.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DetectTarget.cpp FindBall.cpp GoTarget.cpp GrabBall.cpp Interface.cpp InterfaceDlg.cpp Judge.cpp LaserDetectDoor.cpp Localizer.cpp MotorPortControl.cpp Platform.cpp Point2D.cpp Robot.cpp Shot.cpp TangentBug.cpp TargetQueue.cpp UrgControl.cpp USBControl.cpp
+         USBControl.cpp
+         UrgControl.cpp
+         TargetQueue.cpp
+         TangentBug.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         Shot.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(215): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(216): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(217): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(218): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(226): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(229): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(229): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(229): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(229): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(240): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\shot.cpp(240): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         Robot.cpp
+         Point2D.cpp
+         Platform.cpp
+         MotorPortControl.cpp
+         Localizer.cpp
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\localizer.cpp(210): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\localizer.cpp(211): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\localizer.cpp(216): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\localizer.cpp(217): warning C4244: '=' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         LaserDetectDoor.cpp
+         Judge.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(36): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(104): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(104): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(105): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(105): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(114): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(114): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(122): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(122): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(123): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(125): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(125): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(125): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\judge.cpp(125): warning C4244: '引數' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+         InterfaceDlg.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\interfacedlg.cpp(723): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\interfacedlg.cpp(726): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\interfacedlg.cpp(796): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\interfacedlg.cpp(799): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\interfacedlg.cpp(958): warning C4553: '==' : 運算子無效; 要使用 '=' 嗎?
+         Interface.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+         GrabBall.cpp
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\grabball.cpp(131): warning C4101: 'GetCurrent' : 未參考的區域變數
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\grabball.cpp(168): warning C4101: 'GetCurrent' : 未參考的區域變數
+         GoTarget.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\gotarget.cpp(306): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\gotarget.cpp(521): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\gotarget.cpp(523): warning C4244: '=' : 將 'double' 轉換為 'float'，由於型別不同，可能導致資料遺失
+         FindBall.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(85): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(86): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(95): warning C4101: 'room' : 未參考的區域變數
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(607): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(608): warning C4244: '正在初始化' : 將 'double' 轉換為 'int'，由於型別不同，可能導致資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\findball.cpp(617): warning C4101: 'room' : 未參考的區域變數
+         DetectTarget.cpp
+     1>d:\program files\opencv-2.1.0\vs2010\include\opencv\cvcompat.h(803): warning C4819: 檔案含有無法在目前字碼頁 (950) 中表示的字元。請以 Unicode 格式儲存檔案以防止資料遺失
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\detecttarget.cpp(135): warning C4018: '<' : signed/unsigned 不相符
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\detecttarget.cpp(650): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\detecttarget.cpp(657): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\users\howard\desktop\8_28final\interface_v13\interface\detecttarget.cpp(659): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 請參閱 'sprintf' 的宣告
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(163): warning C4244: '正在初始化' : 將 'double' 轉換為 'long'，由於型別不同，可能導致資料遺失
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\utility(195) : 請參閱所要編譯的函式 樣板 具現化 'std::_Pair_base<_Ty1,_Ty2>::_Pair_base<_Ty1&,double&>(_Other1,_Other2)' 的參考
+                 with
+                 [
+                     _Ty1=long,
+                     _Ty2=long,
+                     _Other1=long &,
+                     _Other2=double &
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3720) : 請參閱所要編譯的函式 樣板 具現化 'std::pair<_Ty1,_Ty2>::pair<long,double>(std::pair<_Ty1,double> &)' 的參考
+                 with
+                 [
+                     _Ty1=long,
+                     _Ty2=long
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3776) : 請參閱所要編譯的函式 樣板 具現化 'std::pair<_Ty1,_Ty2> std::_Unguarded_partition<_RanIt,bool(__cdecl *)(std::pair<long,double>,std::pair<long,long>)>(_RanIt,_RanIt,_Pr)' 的參考
+                 with
+                 [
+                     _Ty1=std::pair<long,double> *,
+                     _Ty2=std::pair<long,double> *,
+                     _RanIt=std::pair<long,double> *,
+                     _Pr=bool (__cdecl *)(std::pair<long,double>,std::pair<long,long>)
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\algorithm(3806) : 請參閱所要編譯的函式 樣板 具現化 'void std::_Sort<std::pair<_Ty1,_Ty2>*,__w64 int,bool(__cdecl *)(std::pair<_Ty1,_Ty2>,std::pair<_Ty1,long>)>(_RanIt,_RanIt,_Diff,_Pr)' 的參考
+                 with
+                 [
+                     _Ty1=long,
+                     _Ty2=double,
+                     _RanIt=std::pair<long,double> *,
+                     _Diff=__w64 int,
+                     _Pr=bool (__cdecl *)(std::pair<long,double>,std::pair<long,long>)
+                 ]
+                 c:\users\howard\desktop\8_28final\interface_v13\interface\detecttarget.cpp(99) : 請參閱所要編譯的函式 樣板 具現化 'void std::sort<std::_Vector_iterator<_Myvec>,bool(__cdecl *)(std::pair<_Ty1,_Ty2>,std::pair<_Ty1,long>)>(_RanIt,_RanIt,_Pr)' 的參考
+                 with
+                 [
+                     _Myvec=std::_Vector_val<std::pair<long,double>,std::allocator<std::pair<long,double>>>,
+                     _Ty1=long,
+                     _Ty2=double,
+                     _RanIt=std::_Vector_iterator<std::_Vector_val<std::pair<long,double>,std::allocator<std::pair<long,double>>>>,
+                     _Pr=bool (__cdecl *)(std::pair<long,double>,std::pair<long,long>)
+                 ]
+         正在產生程式碼...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0404" /IDebug\ /nologo /fo"Debug\Interface.res" Interface.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Debug\Interface.exe" /INCREMENTAL:NO /NOLOGO cv210d.lib cvaux210d.lib cxcore210d.lib highgui210d.lib ml210d.lib /MANIFEST /ManifestFile:"Debug\Interface.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Debug\Interface.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Debug\Interface.lib" /MACHINE:X86 Debug\Interface.res
+         Debug\DetectTarget.obj
+         Debug\FindBall.obj
+         Debug\GoTarget.obj
+         Debug\GrabBall.obj
+         Debug\Interface.obj
+         Debug\InterfaceDlg.obj
+         Debug\Judge.obj
+         Debug\LaserDetectDoor.obj
+         Debug\Localizer.obj
+         Debug\MotorPortControl.obj
+         Debug\Platform.obj
+         Debug\Point2D.obj
+         Debug\Robot.obj
+         Debug\Shot.obj
+         Debug\stdafx.obj
+         Debug\TangentBug.obj
+         Debug\TargetQueue.obj
+         Debug\UrgControl.obj
+         Debug\USBControl.obj
+     1>DetectTarget.obj : warning LNK4075: 忽略 '/EDITANDCONTINUE'，由於 '/INCREMENTAL:NO' 規格
+         Interface_v13.vcxproj -> C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Debug\Interface.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Debug\Interface.exe;#1" /manifest Debug\Interface.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Interface.unsuccessfulbuild".
+         Touching "Debug\Interface.lastbuildstate".
+     1>Done Building Project "C:\Users\howard\Desktop\8_28FINAL\Interface_v13\Interface\Interface_v13.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:31.27

@@ -1,0 +1,11 @@
+90-02 90
+Find 0
+90-23 90
+Door_Enter 90
+Find 0
+Door_Leave 90
+0-34 0
+Find 1
+180-41 180
+Find 1
+180-10 180

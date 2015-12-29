@@ -1,0 +1,18 @@
+AreaThreshold 20
+Cbmax 255
+Cbmin 92
+Crmax 255
+Crmin 184
+Door_AreaThreshold 10000
+Door_Cbmax 78
+Door_Cbmin 56
+Door_Crmax 170
+Door_Crmin 148
+Door_Ymax 255
+Door_Ymin 0
+StopDist 14
+Ymax 255
+Ymin 0
+ObstacleWidth 20
+WaitDoorMileSec 0
+
